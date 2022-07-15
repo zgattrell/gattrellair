@@ -2818,6 +2818,7 @@
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
+			border: 2px solid black;
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e5e5e5;
 			color: #777;
@@ -3846,7 +3847,7 @@
 		/* Box */
 
 			.box {
-				border-radius: 0;
+				border-radius: 5px;
 				box-shadow: none;
 				margin: 1em 0 0 0;
 				padding: 3em 1em !important;
